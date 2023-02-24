@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Unit1-06-HTML-Favicon -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My second webpage, with a favicon">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Noah Smith">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- For the favicon on this page -->
+    <link rel="thumb-up-smiley" sizes="180x180" href="https://img.freepik.com/premium-vector/slice-pizza-cartoonvector-cartoon-illustrationcartoon-clipart_11393-359.jpg?w=740">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://img.freepik.com/premium-vector/slice-pizza-cartoonvector-cartoon-illustrationcartoon-clipart_11393-359.jpg?w=740">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://img.freepik.com/premium-vector/slice-pizza-cartoonvector-cartoon-illustrationcartoon-clipart_11393-359.jpg?w=740">
+    <link rel="manifest" href="https://img.freepik.com/premium-vector/slice-pizza-cartoonvector-cartoon-illustrationcartoon-clipart_11393-359.jpg?w=740">
+
+    <!-- To use Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-purple.min.css"/>
+      <title>My Second Web Page, with a Favicon</title>
+  </head>
+  <body>
+    <!-- To use Google's MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			
+      <!-- Web page header -->
+      <header class = "mdl-layout__header">
+        <div class = "mdl-layout__header-row">      
+          <span class = "mdl-layout-title">My Second Web Page, with a Favicon</span>
+        </div>
+      </header>
+			
+      <!-- Container for web page content -->
+      <main class = "mdl-layout__content" style = "padding-left:20px">
+        <h4>See my favicon in the browser tab above. It is a pizza.</h4>	
+				
+        <!-- Colored FAB button with ripple -->
+        <p>Click the button for good luck:</p>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+          <i class="material-icons">add</i>
+        </button>
+        <br>
+        <img src="./images/luck.avif" width="300" "alt="get lucky">
+
+        <!-- Check Box -->
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+          <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+          <span class="mdl-checkbox__label"><b>Do you believe in luck?</b>
+          </span>
+        </label>
+        
+        <!-- Div -->
+        <div id="Luck">It is difficult to say if luck exists.</div>
+      </main>
+    </div>
+  </body>
+</html>
